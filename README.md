@@ -31,9 +31,10 @@ A modern web application that replicates the core functionality of ChatGPT, buil
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Rumman963/chatgpt-clone.git
-cd chatgpt-clone
+git clone https://github.com/Rumman963/chatgpt-clone-projects-REACT-JS-.git
+cd chatgpt-clone-projects-REACT-JS-
 ```
+
 2. Install dependencies:
 ```bash
 npm install
