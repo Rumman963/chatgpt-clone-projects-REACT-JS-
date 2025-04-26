@@ -1,0 +1,200 @@
+.training-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.training-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.upload-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+}
+
+.upload-section h2 {
+    color: #495057;
+    margin-bottom: 1rem;
+}
+
+.file-input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.error-message {
+    color: #dc3545;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+}
+
+.training-info {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #e9ecef;
+    border-radius: 6px;
+}
+
+.training-info p {
+    margin-bottom: 1rem;
+    color: #495057;
+}
+
+.start-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.start-button:hover {
+    background-color: #0056b3;
+}
+
+.start-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.status-section {
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+}
+
+.status-section h2 {
+    color: #495057;
+    margin-bottom: 1rem;
+}
+
+.status-section p {
+    margin-bottom: 0.5rem;
+    color: #495057;
+}
+
+.metrics-section {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+
+.metrics-section h3 {
+    color: #495057;
+    margin-bottom: 1rem;
+}
+
+.metrics-section p {
+    margin-bottom: 0.5rem;
+    color: #495057;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    .training-container {
+        background-color: #343a40;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .training-container h1 {
+        color: #f8f9fa;
+    }
+
+    .upload-section {
+        background-color: #495057;
+    }
+
+    .upload-section h2 {
+        color: #f8f9fa;
+    }
+
+    .file-input {
+        background-color: #6c757d;
+        border-color: #495057;
+        color: #f8f9fa;
+    }
+
+    .training-info {
+        background-color: #495057;
+    }
+
+    .training-info p {
+        color: #f8f9fa;
+    }
+
+    .status-section {
+        background-color: #495057;
+    }
+
+    .status-section h2 {
+        color: #f8f9fa;
+    }
+
+    .status-section p {
+        color: #f8f9fa;
+    }
+
+    .metrics-section {
+        background-color: #6c757d;
+    }
+
+    .metrics-section h3 {
+        color: #f8f9fa;
+    }
+
+    .metrics-section p {
+        color: #f8f9fa;
+    }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .training-container {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .upload-section,
+    .training-info,
+    .status-section {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .training-container {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .training-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .upload-section h2,
+    .status-section h2 {
+        font-size: 1.2rem;
+    }
+} 

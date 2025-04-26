@@ -1,0 +1,123 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #343541;
+    padding: 2rem;
+}
+
+.login-box {
+    background-color: #444654;
+    padding: 3rem;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.login-logo {
+    width: 4.8rem;
+    height: 4.8rem;
+    margin-bottom: 1.6rem;
+}
+
+.login-header h2 {
+    color: #ECECF1;
+    font-size: 2.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.login-subtitle {
+    color: #8E8EA0;
+    font-size: 1.4rem;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    display: block;
+    color: #ECECF1;
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    background-color: #343541;
+    color: #ECECF1;
+    font-size: 1.4rem;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #0F9BF7;
+    box-shadow: 0 0 0 2px rgba(15, 155, 247, 0.2);
+}
+
+.form-group input.error {
+    border-color: #ff4444;
+}
+
+.error-message {
+    color: #ff4444;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+.submit-error {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 1.2rem;
+    background-color: #0F9BF7;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+button[type="submit"]:hover {
+    background-color: #0b86d9;
+}
+
+button[type="submit"]:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+}
+
+.form-footer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+
+.form-footer a {
+    color: #0F9BF7;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.form-footer a:hover {
+    color: #0b86d9;
+    text-decoration: underline;
+} 

@@ -1,0 +1,239 @@
+.account-settings {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.settings-sidebar {
+    width: 300px;
+    background-color: #ffffff;
+    padding: 2rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-preview {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.profile-image-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 1rem;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #10a37f;
+}
+
+.change-image-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #10a37f;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s;
+}
+
+.change-image-btn:hover {
+    background-color: #0d8a6d;
+}
+
+.settings-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.settings-nav button {
+    padding: 1rem;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #666;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.settings-nav button:hover {
+    background-color: #f0f0f0;
+    color: #10a37f;
+}
+
+.settings-nav button.active {
+    background-color: #10a37f;
+    color: white;
+}
+
+.settings-content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #ffffff;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #10a37f;
+}
+
+.version-info {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.version-info h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.version-info p {
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.help-section {
+    margin-bottom: 2rem;
+}
+
+.help-section h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.help-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.help-section ul li {
+    padding: 0.5rem 0;
+    color: #666;
+}
+
+.save-button {
+    background-color: #10a37f;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    margin-top: 2rem;
+}
+
+.save-button:hover {
+    background-color: #0d8a6d;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    .account-settings {
+        background-color: #1a1a1a;
+    }
+
+    .settings-sidebar,
+    .settings-content {
+        background-color: #2d2d2d;
+    }
+
+    .form-group label {
+        color: #e0e0e0;
+    }
+
+    .form-group input,
+    .form-group select {
+        background-color: #3d3d3d;
+        border-color: #4d4d4d;
+        color: #e0e0e0;
+    }
+
+    .version-info {
+        background-color: #3d3d3d;
+    }
+
+    .version-info h3 {
+        color: #e0e0e0;
+    }
+
+    .version-info p {
+        color: #b0b0b0;
+    }
+
+    .help-section h3 {
+        color: #e0e0e0;
+    }
+
+    .help-section ul li {
+        color: #b0b0b0;
+    }
+
+    .settings-nav button {
+        color: #b0b0b0;
+    }
+
+    .settings-nav button:hover {
+        background-color: #3d3d3d;
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .account-settings {
+        flex-direction: column;
+    }
+
+    .settings-sidebar {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .settings-content {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .profile-image-container {
+        width: 100px;
+        height: 100px;
+    }
+} 

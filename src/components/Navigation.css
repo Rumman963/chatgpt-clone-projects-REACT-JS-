@@ -1,0 +1,35 @@
+.navigation {
+    background-color: #444654;
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: #ECECF1;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.active {
+    background-color: #0F9BF7;
+    color: white;
+}
+
+.nav-link.active:hover {
+    background-color: #0b86d9;
+} 

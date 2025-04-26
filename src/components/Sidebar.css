@@ -1,0 +1,128 @@
+.sidebar {
+    flex: 3;
+    background-color: #202123;
+    border-right: 1px solid rgba(255,255,255,0.1);
+    min-width: 260px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.upperSide {
+    padding: 2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.upperSideTop {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    width: 28px;
+    margin-right: 1rem;
+}
+
+.brand {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ECECF1;
+}
+
+.midBtn {
+    background: #0F9BF7;
+    border: none;
+    color: white;
+    padding: 0.8rem;
+    font-size: 1.4rem;
+    width: 100%;
+    max-width: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 500;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.midBtn:hover {
+    background: #0b86d9;
+    transform: translateY(-1px);
+}
+
+.addBtn {
+    width: 16px;
+    height: 16px;
+    margin-right: 0.8rem;
+}
+
+.query {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    color: #ECECF1;
+    padding: 1.2rem;
+    width: 100%;
+    margin: 0.8rem auto;
+    border-radius: 0.6rem;
+    border: 1px solid rgba(255,255,255,0.1);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.query:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.query > img {
+    width: 18px;
+    height: 18px;
+    margin-right: 1.2rem;
+    opacity: 0.8;
+}
+
+.lowerSide {
+    padding: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: auto;
+}
+
+.listItems {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #ECECF1;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 0.4rem;
+}
+
+.listItems:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.listItemImg {
+    width: 18px;
+    height: 18px;
+    margin-right: 1.2rem;
+    opacity: 0.8;
+}
+
+.listItems.active {
+    background: rgba(255,255,255,0.1);
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+} 
