@@ -34,7 +34,6 @@ A modern web application that replicates the core functionality of ChatGPT, buil
 git clone https://github.com/yourusername/chatgpt-clone.git
 cd chatgpt-clone
 ```
-
 2. Install dependencies:
 ```bash
 npm install
@@ -82,3 +81,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - OpenAI for the ChatGPT API
 - React team for the amazing framework
+
