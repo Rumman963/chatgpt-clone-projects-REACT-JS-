@@ -31,7 +31,7 @@ A modern web application that replicates the core functionality of ChatGPT, buil
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/chatgpt-clone.git
+git clone https://github.com/Rumman963/chatgpt-clone.git
 cd chatgpt-clone
 ```
 2. Install dependencies:
